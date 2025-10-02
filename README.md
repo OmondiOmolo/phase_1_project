@@ -4,15 +4,12 @@
 
 ## Overview
 
-The business problem is that the company wants to venture into the Aviation Business but has no prior knowledge of potential risks associated with aircrafts. The data of use which was collected and gathered by the NTSB was then cleaned and analyzed in order to gain insights on the different aircrafts' aviation statistics. Through pandas and its associated libraries, various methods of cleaning, analysis and visualizing the data were employed. As a result, a cleaned version of the dataset along various informative visualizations were created. Various recommendations were then made based on different criteria such as total fatal injuries, total number of accidents and total uninjured people. These recommendations were made considering that the purpose of the flight was for Business.
+The company wants to venture into the Aviation Business but has no prior knowledge of potential risks associated with aircrafts. The data of use which was collected and gathered by the NTSB was then cleaned and analyzed in order to gain insights on the different aircrafts' aviation statistics. Through pandas and its associated libraries, various methods of cleaning, analysis and visualizing the data were employed. Recommendations were made considering that the purpose of the flights was for Business.
 
 ## Business Problem
 
-The company has ventured into the aviation business. Particularly, operating airplanes for commercial and private enterprise.
 The challenge is that the company has no prior knowledge of potential risks associated with the aircrafts.
-The aim is to determine which aircrafts bear the least risk to the company as it starts this new business venture.
-Aviation data of accidents between the years 1962-2023 by the NTSB was retrieved from Kaggle.
-Through the use of this data, the safest aircrafts specific to our purpose can be identified and recommended.
+The aim is to determine which aircraft bears the least risk to the company as it starts this new business venture.
 
 ## Data
 
@@ -23,40 +20,35 @@ These features, while considering the purpose of the flight, can help to determi
 ## Methods
 
 A number of methods were used to clean, analyze and visualize the data.
-First, through the use of pandas libraries in python, both AviationData.csv and NTSB_Database.csv were loaded into data frames.
-Then the duplicated rows were dropped based on the event id column.
-The non duplicated rows also contained numerous null values which were replaced by either the mode or mean and in the case of categorical data, an unknown category was used.
-The null values in columns such as total uninjured, total minor injuries, total serious injuries were filled as 0. This is because the data showed that if all people involved suffered fatal injuries, then these columns were null.
-Finally, the columns with too many missing rows such as latitude and longitude were dropped.
-The cleaned version was then merged to the data frame containing information from NTSB_database.csv which appeared to have some relevant columns whose rows were filled.
+Pandas library was used to clean and analyze the data.
 Some visualizations were also made with the aid of matplotlib.pyplot and seaborn.
-This approach enabled us to simplify the data cleaning, analyzing and visualization process especially considering the dataset contains numerous rows and columns.
 
 ## Results
 
-### Accident/Incident Occurrence against Engine Type
-<img width="331" height="233" alt="image" src="https://github.com/user-attachments/assets/c4f3141c-5b26-4346-ac7a-d31547f617bc" />
+### Total fatal injuries against Engine Type
+
+<img width="712" height="424" alt="fatal injuries by engine type" src="https://github.com/user-attachments/assets/ccc53560-032f-4b5b-b119-12002e825e2a" />
+
 
 
 
 ### Number of uninjured people against aircraft model within make 
-<img width="295" height="287" alt="image" src="https://github.com/user-attachments/assets/cd438e31-e4fe-4e74-a988-b04edfca7758" />
+<img width="856" height="496" alt="safest aircraft by uninjured count" src="https://github.com/user-attachments/assets/cc1728fe-5c1c-44ac-aa03-1d3ee7a8b79e" />
+
 
 
 
 ### Aircraft Category against Total Fatal Injuries
-<img width="300" height="244" alt="image" src="https://github.com/user-attachments/assets/54db4411-3015-4ca9-8ad7-bd83f2c31357" />
+<img width="712" height="424" alt="fatal injuries by aircraft category" src="https://github.com/user-attachments/assets/219f689d-35c4-494c-9318-d8fbf17639cc" />
 
 
 
 ## Conclusions
 
-From the results, aircraft with electric engine types are recommended while those with reciprocating engine types should be avoided since they are involved in the highest fatalities and accident occurrences.
-The company should purchase the Gates Learjet,24E which is the safest option for business purposes since it has the highest rates of uninjured users.
+Aircraft with electric, LR and even Turbo fan engine types are recommended since they have the least total fatal injuries.
+The company should purchase the Gates Learjet,24E, which is the safest option for business purposes since it has the highest rates of uninjured users.
 Helicopters are illustrated to be among the categories associated with the least total fatal injuries and is strongly recommended for business purposes.
-The company should also steer clear of the A36 model as it is the least robust and suffers the highest aircraft damage and potentially the highest fatalities and accident rates.
-A limitation of this analysis is that several features contain unknown values, hence it could mean that there is a level of bias to this analysis.
-For future projects, the make and models could be grouped together to further narrow down on specific aircraft characteristics
+For future projects, the make and models could be grouped together to further narrow down on specific aircraft characteristics.
 
 ## For More Information
 
