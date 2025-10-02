@@ -35,11 +35,18 @@ This approach enabled us to simplify the data cleaning, analyzing and visualizat
 ## Results
 
 ### Accident/Incident Occurrence against Engine Type
-<img width="395" height="336" alt="top accident occurences against engine type" src="https://github.com/user-attachments/assets/1a654e96-06e9-4216-bcc8-03ad5ac3c2f1" />
-### Number of uninjured people against aircraft 
-<img width="389" height="378" alt="uninjured by aircraft make(model0" src="https://github.com/user-attachments/assets/c6ab5892-f197-43a3-be6e-82c8e0888171" />
+<img width="331" height="233" alt="image" src="https://github.com/user-attachments/assets/c4f3141c-5b26-4346-ac7a-d31547f617bc" />
+
+
+
+### Number of uninjured people against aircraft model within make 
+<img width="295" height="287" alt="image" src="https://github.com/user-attachments/assets/cd438e31-e4fe-4e74-a988-b04edfca7758" />
+
+
+
 ### Aircraft Category against Total Fatal Injuries
-<img width="395" height="320" alt="fatal injuries against aircraft category" src="https://github.com/user-attachments/assets/b7308b21-76fa-4534-a99b-58fa1167604f" />
+<img width="300" height="244" alt="image" src="https://github.com/user-attachments/assets/54db4411-3015-4ca9-8ad7-bd83f2c31357" />
+
 
 
 ## Conclusions
@@ -60,3 +67,7 @@ For any additional questions, please contact **Shem Omondi, shemrodgers@gmail.co
 ## Repository Structure
 
 ```
+├── .gitignore                                     <- .gitignore contains files which are too large to commit
+├── Aviation Data Analysis Presentation.pdf        <- PDF version of project presentation
+├── README.md                                      <- The top-level README for reviewers of this project
+├── Student.ipynb                                  <- Narrative documentation of analysis in Jupyter notebook
