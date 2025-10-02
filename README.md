@@ -35,11 +35,12 @@ This approach enabled us to simplify the data cleaning, analyzing and visualizat
 ## Results
 
 ### Accident/Incident Occurrence against Engine Type
-<img width="1686" height="696" alt="image" src="https://github.com/user-attachments/assets/d721465a-05c1-43f9-bcb8-daa3507cd052" />
+<img width="395" height="336" alt="top accident occurences against engine type" src="https://github.com/user-attachments/assets/1a654e96-06e9-4216-bcc8-03ad5ac3c2f1" />
 ### Number of uninjured people against aircraft 
-<img width="910" height="815" alt="image" src="https://github.com/user-attachments/assets/1c6e417e-b30a-4686-8162-c2ed5c66708d" />
+<img width="389" height="378" alt="uninjured by aircraft make(model0" src="https://github.com/user-attachments/assets/c6ab5892-f197-43a3-be6e-82c8e0888171" />
 ### Aircraft Category against Total Fatal Injuries
-<img width="976" height="649" alt="image" src="https://github.com/user-attachments/assets/88e2134f-5c98-49fe-b06b-72851762f6a0" />
+<img width="395" height="320" alt="fatal injuries against aircraft category" src="https://github.com/user-attachments/assets/b7308b21-76fa-4534-a99b-58fa1167604f" />
+
 
 ## Conclusions
 
