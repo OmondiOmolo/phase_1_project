@@ -15,12 +15,18 @@ The aim is to determine which aircraft bears the least risk and highest safety s
 The data, collected by the NTSB, was retrieved from Kaggle which is an open website containing various datasets.
 The data consists of the following relevant features:
 
-1.The aircraft make and model.
+1.The aircraft make and model. 
+
 2.Total fatal injuries.
+
 3.Total uninjured people.
+
 4.The purpose of the flight.
+
 5.The accident location.
+
 6.The number of engines.
+
 7.Engine types.
 
 These features, while considering the purpose of the flight, can help to determine which aircrafts are safest to operate for the commercial and private enterprise venture.
@@ -71,15 +77,22 @@ https://github.com/OmondiOmolo/phase_1_project/blob/main/presentation/Aviation%2
 
 https://public.tableau.com/app/profile/shem.omondi/viz/projectvisualizationphase1/whatisthemainreasonbehindfatalaccidents
 
-For any additional questions,please contact:
+For any additional questions, please contact:
+
 Email: **shemrodgers@gmail.com**
 
 ## Repository Structure
 
 
 ├── images                                   <- a folder that contains the visualization in this project.
+
 ├── presentation                             <- a folder that contains the presentation pdf.
+
 ├── .gitignore                               <- .gitignore contains files which are too large to commit.
+
 ├── Aviation Data Analysis Presentation.pdf  <- PDF version of project presentation.
+
 ├── README.md                                <- The top-level README for reviewers of this project.
+
 ├── Student.ipynb                            <- Narrative documentation of analysis in Jupyter notebook.
+
