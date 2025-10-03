@@ -75,7 +75,7 @@ Please review our full analysis in https://github.com/OmondiOmolo/phase_1_projec
 
 https://github.com/OmondiOmolo/phase_1_project/blob/main/presentation/Aviation%20Data%20Analysis%20Presentation.pdf 
 
-https://public.tableau.com/app/profile/shem.omondi/viz/projectvisualizationphase1/whatisthemainreasonbehindfatalaccidents
+https://public.tableau.com/app/profile/shem.omondi/viz/projectvisualizationphase1/whicharethesafestandmostreliableaircraftsforbusinessflights?publish=yes
 
 For any additional questions, please contact:
 
