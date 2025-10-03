@@ -3,24 +3,35 @@ Author**: Shem Omondi
 
 ## Overview
 
-The company wants to venture into the Aviation Business but has no prior knowledge of potential risks associated with aircrafts. The data of use which was collected and gathered by the NTSB was then cleaned and analyzed in order to gain insights on the different aircrafts' aviation statistics. Through pandas and its associated libraries, various methods of cleaning, analysis and visualizing the data were employed. Recommendations were made considering that the purpose of the flights was for Business.
+The company wants to venture into the Aviation Business but has no prior knowledge of potential risks associated with aircrafts. This project utilizes data from the NTSB to gain insights and identify the safest aircraft options for business use. Using Python libraries such as pandas, matplotlib, and seaborn, the dataset was cleaned, explored, and visualized to support data-driven recommendations.
 
 ## Business Problem
 
 The challenge is that the company has no prior knowledge of potential risks associated with the aircrafts.
-The aim is to determine which aircraft bears the least risk to the company as it starts this new business venture.
+The aim is to determine which aircraft bears the least risk and highest safety standards specifically to business flights as it plans to start this new business venture.
 
 ## Data
 
-The data of use will be the cleaned version of the aviation dataset by the NTSB which was retrieved from Kaggle which is an open website containing various datasets.
-The data consists of the following relevant features; the aircraft make and model, total fatal injuries, total uninjured people, the purpose of the flight, the accident location, the number of engines and engine type of involved aircrafts.
+The data, collected by the NTSB, was retrieved from Kaggle which is an open website containing various datasets.
+The data consists of the following relevant features:
+
+1.The aircraft make and model.
+2.Total fatal injuries.
+3.Total uninjured people.
+4.The purpose of the flight.
+5.The accident location.
+6.The number of engines.
+7.Engine types.
+
 These features, while considering the purpose of the flight, can help to determine which aircrafts are safest to operate for the commercial and private enterprise venture.
 
 ## Methods
 
-A number of methods were used to clean, analyze and visualize the data.
-Pandas library was used to clean and analyze the data.
-Some visualizations were also made with the aid of matplotlib.pyplot and seaborn.
+The analysis involved:
+- Data Cleaning: Using pandas to handle missing values and standardize entries
+- Exploratory Analysis: Identifying trends and patterns in accident data
+- Visualization: Leveraging matplotlib and seaborn to present insights graphically
+
 
 ## Results
 
@@ -44,24 +55,31 @@ Some visualizations were also made with the aid of matplotlib.pyplot and seaborn
 
 ## Conclusions
 
-Aircraft with electric, LR and even Turbo fan engine types are recommended since they have the least total fatal injuries.
-The company should purchase the Gates Learjet,24E, which is the safest option for business purposes since it has the highest rates of uninjured users.
-Helicopters are illustrated to be among the categories associated with the least total fatal injuries and is strongly recommended for business purposes.
-For future projects, the make and models could be grouped together to further narrow down on specific aircraft characteristics.
+1.Aircraft with electric, LR and even Turbo fan engine types are recommended since they have the least total fatal injuries.
+
+2.The company should purchase the Gates Learjet,24E, which is the safest option for business purposes since it has the highest rates of uninjured users.
+
+3.Helicopters are recommended for business flights among the different aircraft categories because they have the least total fatalities after data analysis.
+
+4.For future projects, the make and models could be grouped together to further narrow down on specific aircraft characteristics.
 
 ## For More Information
 
-Please review our full analysis in https://github.com/OmondiOmolo/phase_1_project/blob/main/student.ipynb or https://github.com/OmondiOmolo/phase_1_project/blob/main/presentation/Aviation%20Data%20Analysis%20Presentation.pdf or
+Please review our full analysis in https://github.com/OmondiOmolo/phase_1_project/blob/main/student.ipynb 
+
+https://github.com/OmondiOmolo/phase_1_project/blob/main/presentation/Aviation%20Data%20Analysis%20Presentation.pdf 
+
 https://public.tableau.com/app/profile/shem.omondi/viz/projectvisualizationphase1/whatisthemainreasonbehindfatalaccidents
 
-For any additional questions, please contact **Shem Omondi, shemrodgers@gmail.com**
+For any additional questions,please contact:
+Email: **shemrodgers@gmail.com**
 
 ## Repository Structure
 
-``
-  ├── images                                       <- contains the visualization we have used in this project
-  ├── presentation                                 <- contains the presentation pdf
-  ├── .gitignore                                   <- .gitignore contains files which are too large to commit
-  ├── Aviation Data Analysis Presentation.pdf      <- PDF version of project presentation
-  ├── README.md                                    <- The top-level README for reviewers of this project
-  ├── Student.ipynb                                <- Narrative documentation of analysis in Jupyter notebook
+
+├── images                                   <- a folder that contains the visualization in this project.
+├── presentation                             <- a folder that contains the presentation pdf.
+├── .gitignore                               <- .gitignore contains files which are too large to commit.
+├── Aviation Data Analysis Presentation.pdf  <- PDF version of project presentation.
+├── README.md                                <- The top-level README for reviewers of this project.
+├── Student.ipynb                            <- Narrative documentation of analysis in Jupyter notebook.
